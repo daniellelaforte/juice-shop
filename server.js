@@ -6,6 +6,7 @@
 const path = require('path')
 const fs = require('fs-extra')
 const morgan = require('morgan')
+require('sqreen');
 const colors = require('colors/safe')
 const finale = require('finale-rest')
 const express = require('express')
